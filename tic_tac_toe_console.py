@@ -53,7 +53,7 @@ while True:
         
         if check_winner():
             print_board()
-            print(f"🎉 Player {current_player} wins!")
+            print(f"Player {current_player} wins!")
             break
         
         if check_draw():
